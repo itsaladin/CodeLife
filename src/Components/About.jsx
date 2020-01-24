@@ -12,8 +12,14 @@ export default class About extends Component {
                 <Container style={{display: 'flex',  justifyContent:'center', alignItems:'center'}}>
                     <Col xs={12} sm={8} smOffset={2}>
                         <Image src={One} className="about-profile-pic" rounded />
-                        <h3>Frank The Tank</h3>
-                        <p>Just relax and let it flow. That easy. We'll have a super time. You have to allow the paint to break to make it beautiful. If it's not what you want - stop and change it. Don't just keep going and expect it will get better. Nice little clouds playing around in the sky. Nature is so fantastic, enjoy it. Let it make you happy.</p>
+                        <h3>Alauddin Ahmed</h3>
+
+                        <p className='text-success'>I developed many application using Laravel , React JS ,C#.Net MVC (Web form), C# Development , Java Swing (Desktop App) Development.</p>
+                        
+                        <p>C# ASP.NET (Web-form) application : <span className='text-danger'>ERP based  software 10+ completed.</span></p>
+                         <p>Java (Swing) Desktop application :  <span className='text-danger'>Diagnostic Management system, Library management system.</span></p>
+                         <p>PHP Laravel : <span className='text-danger'> Ecommerce website developed , Akij Group Job Portal developed.</span></p>
+                         <p>Javascript (React.js) :<span className='text-danger'>Portfolio site developed, Programmer problem solution Forum developed.</span> </p>
 
                         <p>The shadows are just like the highlights, but we're going in the opposite direction. We'll lay all these little funky little things in there. Don't be bashful drop me a line.</p>
 
